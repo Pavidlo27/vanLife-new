@@ -46,7 +46,10 @@ header a:hover {
 /*** VAN PAGES ***/
 
 .van-type {
-  padding: 8px 26px;
+  max-width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
   font-style: normal;
   font-weight: 500;
   border: none;
@@ -85,7 +88,6 @@ header a:hover {
 
 .van-type.clear-filters {
   white-space: nowrap;
-  margin-left: -20px;
   height: 34px;
   padding: 6px 26px;
   font-style: normal;

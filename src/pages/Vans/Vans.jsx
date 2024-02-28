@@ -53,7 +53,7 @@ const Vans = () => {
     return (
       <>
         <div className="grid grid-cols-3 gap-3 my-5 
-        lg:flex lg:flex-row">
+        md:max-w-[350px] lg:max-w-[350px]">
           <button
             onClick={() => handleFilterChange("type", "simple")}
             className={`van-type simple ${typeFilter === 'simple' ? 'selected' : ''}`}
