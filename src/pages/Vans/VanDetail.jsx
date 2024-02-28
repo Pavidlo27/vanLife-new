@@ -19,18 +19,18 @@ const VanDetail = () => {
       <Link to={`..${search}`} className="lg:ml-20 mb-5 block hover:underline" relative="path">
         &larr; <span>Back to all vans</span>
       </Link>
-      <div className="lg:flex justify-around lg:h-[500px] bg-slate400">
+      <div className="lg:flex justify-around bg-slate400 lg:h-fit lg:min-h-[450px]">
         <div className="lg:w-[450px] lg:h-fit overflow-hidden rounded-md bg-black">
           <img src={van.imageUrl} className="max-w-full" />
         </div>
-        <div className="lg:w-[500px]">
+        <div className="lg:w-[500px] lg:relative">
           <h2 className="my-5 text-xl font-bold">{van.name}</h2>
           <p className="my-5">
             <span>${van.price}</span>/day
           </p>
           <i className={`van-type ${van.type} selected`}>{van.type}</i>
           <p className="text-p my-10">{van.description}</p>
-          <button className="w-full bg-primary hover:opacity-80 py-5 rounded-md mt-8 text-white text-xl font-bold hover:">Rent this van</button>
+          <button className="w-full lg:absolute lg:bottom-0 bg-primary hover:opacity-80 py-5 rounded-md mt-8 text-white text-xl font-bold hover:">Rent this van</button>
         </div>
       </div>
     </div>
