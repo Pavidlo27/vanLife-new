@@ -8,7 +8,8 @@ const Header = () => {
         color: "#161616"
     }
     return (
-        <header className='fixed w-full flex justify-between items-center px-3 py-8 z-10
+        <header className='fixed w-full flex justify-between items-center 
+        px-3 py-8 z-10 bg-white
         lg:static'>
             <Link to='/' className='site-logo'>#VanLife</Link>
 
