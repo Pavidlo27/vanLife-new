@@ -10,8 +10,8 @@ import FAQ from "../components/FAQ"
 
 export default function Home() {
     return (
-        <section className=" px-8 relative text-center w-full font-body
-        lg:text-start">
+        <section className=" px-8 mt-28 relative text-center w-full font-body
+        lg:text-start lg:mt-0">
             {/* START TITLE... */}
             <div className="lg:flex lg:justify-around ">
                 <div className="min-h-screen flex flex-col justify-center
