@@ -7,7 +7,7 @@ const Accordion = ({ title, answer }) => {
       className="bg-white shadow-lg"
       onClick={() => setActive(prev => !prev)}
     >
-      <div className={`text-lg font-medium flex px-6 py-4
+      <div className={`text-lg font-medium flex px-6 py-4 cursor-pointer
       justify-between items-center ${active ? 'bg-primary shadow-lg' : ''} duration-300`}>
         <span className={`${active ? 'text-white' : ''}`}>{title}</span>
         <svg
