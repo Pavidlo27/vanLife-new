@@ -14,7 +14,7 @@ export default function Home() {
         lg:text-start lg:mt-0">
             {/* START TITLE... */}
             <div className="lg:flex lg:justify-around ">
-                <div className="min-h-screen flex flex-col justify-center
+                <div className="mb-28 flex flex-col justify-center
             lg:w-1/2 lg:min-h-fit">
                     <h1 className="text-[52px] font-bold leading-tight
                 lg:text-5xl">
