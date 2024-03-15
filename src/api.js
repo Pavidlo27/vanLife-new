@@ -41,32 +41,3 @@ export async function getVan(id) {
     id: vanSnapshot.id,
   };
 }
-
-export async function getHostVans() {
-  const q = query(vansCollectionRef, where("hostId", "==", "123"));
-  const querySnapshot = await getDocs(q);
-  const dataArr = querySnapshot.docs.map((doc) => ({
-    ...doc.data(),
-    id: doc.id,
-  }));
-  return dataArr;
-}
-export const auth = getAuth(app);
-
-export async function loginUser(creds) {
-  const res = await fetch("/api/login", {
-    method: "post",
-    body: JSON.stringify(creds),
-  });
-  const data = await res.json();
-
-  if (!res.ok) {
-    throw {
-      message: data.message,
-      statusText: res.statusText,
-      status: res.status,
-    };
-  }
-
-  return data;
-}
