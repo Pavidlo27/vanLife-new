@@ -1,6 +1,6 @@
-# React + Vite
+# VANLIFE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VaLife services offer an excellent solution for individuals and groups planning trips. It provides users with a convenient and intuitive interface to explore available vans, make reservations, and manage bookings with ease.
 
 Currently, two official plugins are available:
 
