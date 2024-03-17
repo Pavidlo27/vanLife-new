@@ -6,6 +6,6 @@ VaLife services offer an excellent solution for individuals and groups planning 
 👉 Live Demo: [Live Demo](https://van-life-new.vercel.app/)
 
 ## Build with
-React js
-Tailwind CSS
-Firebase / Firestore Database
+> React js
+> Tailwind CSS
+> Firebase / Firestore Database
